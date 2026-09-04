@@ -1,6 +1,6 @@
 import pygsheets, requests, math, time
  
-client = pygsheets.authorize(service_account_file="mpg_project/credentials.json") 
+client = pygsheets.authorize(service_account_file="./credentials.json") 
 spreadsht = client.open("YOUR_SHEET_NAME") 
 worksht = spreadsht.worksheet("title", "YOUR_TAB_NAME") 
 
